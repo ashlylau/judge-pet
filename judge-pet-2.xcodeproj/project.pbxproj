@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC89407B2759231E004711F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC89407A2759231E004711F6 /* AppDelegate.swift */; };
+		EC89407D2759231E004711F6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC89407C2759231E004711F6 /* SceneDelegate.swift */; };
+		EC89407F2759231E004711F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC89407E2759231E004711F6 /* ViewController.swift */; };
+		EC8940822759231E004711F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC8940802759231E004711F6 /* Main.storyboard */; };
+		EC89408427592322004711F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC89408327592322004711F6 /* Assets.xcassets */; };
+		EC89408727592322004711F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC89408527592322004711F6 /* LaunchScreen.storyboard */; };
+		EC89409227592323004711F6 /* judge_pet_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC89409127592323004711F6 /* judge_pet_2Tests.swift */; };
+		EC89409C27592323004711F6 /* judge_pet_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC89409B27592323004711F6 /* judge_pet_2UITests.swift */; };
+		EC89409E27592323004711F6 /* judge_pet_2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC89409D27592323004711F6 /* judge_pet_2UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC89408E27592323004711F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC89406F2759231D004711F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC8940762759231E004711F6;
+			remoteInfo = "judge-pet-2";
+		};
+		EC89409827592323004711F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC89406F2759231D004711F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC8940762759231E004711F6;
+			remoteInfo = "judge-pet-2";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC8940772759231E004711F6 /* judge-pet-2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "judge-pet-2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC89407A2759231E004711F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC89407C2759231E004711F6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EC89407E2759231E004711F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC8940812759231E004711F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC89408327592322004711F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC89408627592322004711F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC89408827592322004711F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC89408D27592323004711F6 /* judge-pet-2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "judge-pet-2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC89409127592323004711F6 /* judge_pet_2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = judge_pet_2Tests.swift; sourceTree = "<group>"; };
+		EC89409727592323004711F6 /* judge-pet-2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "judge-pet-2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC89409B27592323004711F6 /* judge_pet_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = judge_pet_2UITests.swift; sourceTree = "<group>"; };
+		EC89409D27592323004711F6 /* judge_pet_2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = judge_pet_2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC8940742759231E004711F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC89408A27592323004711F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC89409427592323004711F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC89406E2759231D004711F6 = {
+			isa = PBXGroup;
+			children = (
+				EC8940792759231E004711F6 /* judge-pet-2 */,
+				EC89409027592323004711F6 /* judge-pet-2Tests */,
+				EC89409A27592323004711F6 /* judge-pet-2UITests */,
+				EC8940782759231E004711F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC8940782759231E004711F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC8940772759231E004711F6 /* judge-pet-2.app */,
+				EC89408D27592323004711F6 /* judge-pet-2Tests.xctest */,
+				EC89409727592323004711F6 /* judge-pet-2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC8940792759231E004711F6 /* judge-pet-2 */ = {
+			isa = PBXGroup;
+			children = (
+				EC89407A2759231E004711F6 /* AppDelegate.swift */,
+				EC89407C2759231E004711F6 /* SceneDelegate.swift */,
+				EC89407E2759231E004711F6 /* ViewController.swift */,
+				EC8940802759231E004711F6 /* Main.storyboard */,
+				EC89408327592322004711F6 /* Assets.xcassets */,
+				EC89408527592322004711F6 /* LaunchScreen.storyboard */,
+				EC89408827592322004711F6 /* Info.plist */,
+			);
+			path = "judge-pet-2";
+			sourceTree = "<group>";
+		};
+		EC89409027592323004711F6 /* judge-pet-2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EC89409127592323004711F6 /* judge_pet_2Tests.swift */,
+			);
+			path = "judge-pet-2Tests";
+			sourceTree = "<group>";
+		};
+		EC89409A27592323004711F6 /* judge-pet-2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC89409B27592323004711F6 /* judge_pet_2UITests.swift */,
+				EC89409D27592323004711F6 /* judge_pet_2UITestsLaunchTests.swift */,
+			);
+			path = "judge-pet-2UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC8940762759231E004711F6 /* judge-pet-2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC8940A127592323004711F6 /* Build configuration list for PBXNativeTarget "judge-pet-2" */;
+			buildPhases = (
+				EC8940732759231E004711F6 /* Sources */,
+				EC8940742759231E004711F6 /* Frameworks */,
+				EC8940752759231E004711F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "judge-pet-2";
+			productName = "judge-pet-2";
+			productReference = EC8940772759231E004711F6 /* judge-pet-2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC89408C27592323004711F6 /* judge-pet-2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC8940A427592323004711F6 /* Build configuration list for PBXNativeTarget "judge-pet-2Tests" */;
+			buildPhases = (
+				EC89408927592323004711F6 /* Sources */,
+				EC89408A27592323004711F6 /* Frameworks */,
+				EC89408B27592323004711F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC89408F27592323004711F6 /* PBXTargetDependency */,
+			);
+			name = "judge-pet-2Tests";
+			productName = "judge-pet-2Tests";
+			productReference = EC89408D27592323004711F6 /* judge-pet-2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC89409627592323004711F6 /* judge-pet-2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC8940A727592323004711F6 /* Build configuration list for PBXNativeTarget "judge-pet-2UITests" */;
+			buildPhases = (
+				EC89409327592323004711F6 /* Sources */,
+				EC89409427592323004711F6 /* Frameworks */,
+				EC89409527592323004711F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC89409927592323004711F6 /* PBXTargetDependency */,
+			);
+			name = "judge-pet-2UITests";
+			productName = "judge-pet-2UITests";
+			productReference = EC89409727592323004711F6 /* judge-pet-2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC89406F2759231D004711F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					EC8940762759231E004711F6 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					EC89408C27592323004711F6 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = EC8940762759231E004711F6;
+					};
+					EC89409627592323004711F6 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = EC8940762759231E004711F6;
+					};
+				};
+			};
+			buildConfigurationList = EC8940722759231D004711F6 /* Build configuration list for PBXProject "judge-pet-2" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC89406E2759231D004711F6;
+			productRefGroup = EC8940782759231E004711F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC8940762759231E004711F6 /* judge-pet-2 */,
+				EC89408C27592323004711F6 /* judge-pet-2Tests */,
+				EC89409627592323004711F6 /* judge-pet-2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC8940752759231E004711F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC89408727592322004711F6 /* LaunchScreen.storyboard in Resources */,
+				EC89408427592322004711F6 /* Assets.xcassets in Resources */,
+				EC8940822759231E004711F6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC89408B27592323004711F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC89409527592323004711F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC8940732759231E004711F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC89407F2759231E004711F6 /* ViewController.swift in Sources */,
+				EC89407B2759231E004711F6 /* AppDelegate.swift in Sources */,
+				EC89407D2759231E004711F6 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC89408927592323004711F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC89409227592323004711F6 /* judge_pet_2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC89409327592323004711F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC89409C27592323004711F6 /* judge_pet_2UITests.swift in Sources */,
+				EC89409E27592323004711F6 /* judge_pet_2UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC89408F27592323004711F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC8940762759231E004711F6 /* judge-pet-2 */;
+			targetProxy = EC89408E27592323004711F6 /* PBXContainerItemProxy */;
+		};
+		EC89409927592323004711F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC8940762759231E004711F6 /* judge-pet-2 */;
+			targetProxy = EC89409827592323004711F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC8940802759231E004711F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC8940812759231E004711F6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC89408527592322004711F6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC89408627592322004711F6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC89409F27592323004711F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC8940A027592323004711F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC8940A227592323004711F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3RUFS68CF6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "judge-pet-2/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AL.judge-pet-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC8940A327592323004711F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3RUFS68CF6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "judge-pet-2/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AL.judge-pet-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EC8940A527592323004711F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3RUFS68CF6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AL.judge-pet-2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/judge-pet-2.app/judge-pet-2";
+			};
+			name = Debug;
+		};
+		EC8940A627592323004711F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3RUFS68CF6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AL.judge-pet-2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/judge-pet-2.app/judge-pet-2";
+			};
+			name = Release;
+		};
+		EC8940A827592323004711F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3RUFS68CF6;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AL.judge-pet-2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "judge-pet-2";
+			};
+			name = Debug;
+		};
+		EC8940A927592323004711F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3RUFS68CF6;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AL.judge-pet-2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "judge-pet-2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC8940722759231D004711F6 /* Build configuration list for PBXProject "judge-pet-2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC89409F27592323004711F6 /* Debug */,
+				EC8940A027592323004711F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC8940A127592323004711F6 /* Build configuration list for PBXNativeTarget "judge-pet-2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC8940A227592323004711F6 /* Debug */,
+				EC8940A327592323004711F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC8940A427592323004711F6 /* Build configuration list for PBXNativeTarget "judge-pet-2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC8940A527592323004711F6 /* Debug */,
+				EC8940A627592323004711F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC8940A727592323004711F6 /* Build configuration list for PBXNativeTarget "judge-pet-2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC8940A827592323004711F6 /* Debug */,
+				EC8940A927592323004711F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC89406F2759231D004711F6 /* Project object */;
+}
