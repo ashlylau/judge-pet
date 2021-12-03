@@ -34,6 +34,7 @@ extension ScoreViewCell {
         self.scoreLabel.text = "0.0"
         self.countTextField.keyboardType = .numberPad
         self.countTextField.returnKeyType = .done
+        self.countTextField.text = ""
         self.value = value
     }
 }

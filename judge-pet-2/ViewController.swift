@@ -20,6 +20,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     @IBOutlet var tableView: UITableView!
     @IBOutlet var calculateButton: UIButton!
     @IBOutlet var dScoreLabel: UILabel!
+    @IBOutlet var clearButton: UIButton!
+    
         
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -53,9 +55,16 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     @IBAction func calculateButtonPressed(_ sender: UIButton) {
+        print("calculate")
         calculateTotal()
     }
     
+    @IBAction func clearButtonPressed(_ sender: Any) {
+        print("clear")
+        self.myData = getDefaultData()
+        self.dScoreLabel.text = "0.0"
+        tableView?.reloadData()
+    }
     private func getDefaultData() -> [Score] {
         return [
             Score(title: "F", value: 0.6),
