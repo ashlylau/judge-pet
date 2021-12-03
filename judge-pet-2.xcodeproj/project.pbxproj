@@ -16,6 +16,8 @@
 		EC89409227592323004711F6 /* judge_pet_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC89409127592323004711F6 /* judge_pet_2Tests.swift */; };
 		EC89409C27592323004711F6 /* judge_pet_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC89409B27592323004711F6 /* judge_pet_2UITests.swift */; };
 		EC89409E27592323004711F6 /* judge_pet_2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC89409D27592323004711F6 /* judge_pet_2UITestsLaunchTests.swift */; };
+		EC8940AD275A65CD004711F6 /* Score.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8940AC275A65CD004711F6 /* Score.swift */; };
+		EC8940AF275A6A18004711F6 /* ScoreViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8940AE275A6A18004711F6 /* ScoreViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		EC89409727592323004711F6 /* judge-pet-2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "judge-pet-2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC89409B27592323004711F6 /* judge_pet_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = judge_pet_2UITests.swift; sourceTree = "<group>"; };
 		EC89409D27592323004711F6 /* judge_pet_2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = judge_pet_2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EC8940AC275A65CD004711F6 /* Score.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Score.swift; sourceTree = "<group>"; };
+		EC8940AE275A6A18004711F6 /* ScoreViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				EC89408327592322004711F6 /* Assets.xcassets */,
 				EC89408527592322004711F6 /* LaunchScreen.storyboard */,
 				EC89408827592322004711F6 /* Info.plist */,
+				EC8940AC275A65CD004711F6 /* Score.swift */,
+				EC8940AE275A6A18004711F6 /* ScoreViewCell.swift */,
 			);
 			path = "judge-pet-2";
 			sourceTree = "<group>";
@@ -260,6 +266,8 @@
 			files = (
 				EC89407F2759231E004711F6 /* ViewController.swift in Sources */,
 				EC89407B2759231E004711F6 /* AppDelegate.swift in Sources */,
+				EC8940AF275A6A18004711F6 /* ScoreViewCell.swift in Sources */,
+				EC8940AD275A65CD004711F6 /* Score.swift in Sources */,
 				EC89407D2759231E004711F6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -447,6 +455,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -475,6 +484,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
