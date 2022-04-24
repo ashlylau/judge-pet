@@ -18,10 +18,10 @@ class ScoreViewCell: UITableViewCell {
     
     @IBAction func countTextFieldChanged(_ sender: UITextField) {
         print("cell")
-        var countString = sender.text ?? "0"
-        var count = Double(countString) ?? 0.0
+        let countString = sender.text ?? "0"
+        let count = Double(countString) ?? 0.0
         print(count)
-        scoreLabel.text = String(value * count)
+        scoreLabel.text = String(format: "%.2f", value * count)
         delegate?.cell(self, didUpdateQuantity: value * count)
     }
 }

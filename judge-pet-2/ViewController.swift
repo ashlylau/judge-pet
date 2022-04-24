@@ -51,7 +51,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         for rowData in self.myData {
             totalDScore = totalDScore + rowData.score
         }
-        dScoreLabel.text = String(totalDScore)
+        dScoreLabel.text = String(format: "%.2f", totalDScore)
     }
     
     @IBAction func calculateButtonPressed(_ sender: UIButton) {
@@ -75,6 +75,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             Score(title: "A", value: 0.1),
             Score(title: "num CRs", value: 0.5),
             Score(title: "total bonus", value: 1.0),
+            Score(title: "penalty", value: -1),
         ]
     }
 
