@@ -22,7 +22,7 @@ class ScoreViewCell: UITableViewCell {
         let count = Double(countString) ?? 0.0
         print(count)
         scoreLabel.text = String(format: "%.2f", value * count)
-        delegate?.cell(self, didUpdateQuantity: value * count)
+        delegate?.cell(self, didUpdateQuantity: count)
     }
 }
 
