@@ -4,18 +4,22 @@
 Written in Swift to make use of the Scribble API for handwriting recognition.
 
 
-### MVP
-D-score table with handwriting recognition, which automatically computes the D-score from 
+### V1
+Table of TextFields with handwriting recognition, which uses: 
 - number of valued elements
 - number of Compositional Requirements
 - total connection bonus
+- total neutral deductions
 
-![MVP screenshot](/mvp-demo.PNG)
+To automatically calculate DV, D-score, E-score and Final score fields for ease of verification.
+
+![V1 screenshot](/v1-demo.jpeg)
 
 
-### Future iterations
+### Roadmap
 - [ ] support for > F-valued skills
-- [ ] automatically calculate and display short exercise penalties
+- [x] automatically calculate and display short exercise penalties
+- [x] DV/D/E/Final Score fields
 - [ ] separate writing space for scripting and deductions
 - [ ] recognition and automatic calculation of E deductions
 - [ ] different UI for VT and UB/BB/FX
@@ -25,3 +29,13 @@ D-score table with handwriting recognition, which automatically computes the D-s
 
 ### Reference
 [Women's Artistic Gymnastics 2022-2024 Code of Points](https://www.gymnastics.sport/publicdir/rules/files/en_WAG%20CoP%202022-2024.pdf)
+
+
+### Archive
+**MVP**
+D-score table with handwriting recognition, which automatically computes the D-score from: 
+- number of valued elements
+- number of Compositional Requirements
+- total connection bonus
+
+![MVP screenshot](/mvp-demo.PNG)
